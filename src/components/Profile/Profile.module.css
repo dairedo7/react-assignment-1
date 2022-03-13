@@ -39,6 +39,7 @@ p {
     margin-bottom: 40px;
     border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
 };
 
 .stats li {

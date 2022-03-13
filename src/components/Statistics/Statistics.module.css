@@ -52,7 +52,8 @@
   flex-direction: column;
   width: 75px;
   height: 75px;
-
+  
+  border: 1px solid rgb(94, 92, 92);
   border-radius: 15px;
 }
 

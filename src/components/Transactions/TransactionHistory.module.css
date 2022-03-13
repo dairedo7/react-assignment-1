@@ -5,6 +5,7 @@
     border-collapse: collapse;
     padding-bottom: 40px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 12px 25px 0px;
+    background-color: #fff;
 }
 
 th, td {
