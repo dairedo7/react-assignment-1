@@ -1,4 +1,11 @@
-@import-normalize; /* bring in normalize.css styles */
+img{
+  display: block;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
 
 body {
   margin: 0;
@@ -7,9 +14,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 40px;
+}
+
+.app_link {
+  text-decoration: none;
+}
+
+.main_header {
+  display: inline-block;
+
+  font-size: 26px;
+
+  transition-property: color;
+  transition-duration: 350ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+
+.main_header:hover {
+  color: blue;
+}
+
+.secondary_header {
+  font-size: 22px;
+  text-align: center;
 }
