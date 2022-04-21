@@ -22,7 +22,7 @@ p {
     color:#a9a9a9;
 }
 
- .description {
+.description {
     composes: flex-justify-align;
 
     flex-direction: column;
